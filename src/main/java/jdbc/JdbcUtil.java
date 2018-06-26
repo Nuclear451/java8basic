@@ -8,7 +8,7 @@ public class JdbcUtil {
         Driver psqlDriver = new org.postgresql.Driver();
         DriverManager.registerDriver(psqlDriver);
 
-        final String url = "jdbc:postgresql://localhost:5432/jdbc_example";
+        final String url = "jdbc:postgresql://localhost:5432/study";
         final String user = "test_user";
         final String password = "test_pass";
 
