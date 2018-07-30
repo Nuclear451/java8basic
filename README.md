@@ -1,3 +1,9 @@
+# Functional programming
+## Few built in functional interfaces
+* Predicate: has an abstract method test which returns boolean
+* Function: has an abstract method apply which takes two arguments of type T and returns result of the same type
+* Consumer: has an abstract method accept which takes an argument of type T. Representing side effects.
+   
 # JDBC
 ### Connection to database
    * Obtain the JDBC driver and add it to the CLASSPATH
