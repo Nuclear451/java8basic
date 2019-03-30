@@ -1,14 +1,13 @@
-package lambda.basic;
-
-import lambda.Apple;
+package functional.basic;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class BasicAppleFilter {
-	private static List<Apple> apples = new ArrayList<Apple>();
+	private static List<Apple> apples = new ArrayList<>();
 
 	static {
 		apples.add(new Apple("Admiral", "red", 200));
@@ -31,6 +30,9 @@ public class BasicAppleFilter {
 
 		System.out.println(apples);
 		System.out.println(" ");
+
+		System.out.println();
+
 	}
 
 	public static List<Apple> weightFilter(List<Apple> apples, int weigh) {

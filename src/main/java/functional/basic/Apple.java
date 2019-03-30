@@ -1,4 +1,4 @@
-package lambda;
+package functional.basic;
 
 public class Apple{
 	private String cultivar;
